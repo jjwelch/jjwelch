@@ -1,0 +1,54 @@
+html{
+  background: dimgrey;
+  color: linen;
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 16px;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+body {
+	padding-top: 75px;
+	position: relative;
+	left: 20vw;
+	width: 60vw;
+}
+p {
+	line-height: 28px;
+	
+}
+
+.hangingindent {
+  padding-left: 15px ;
+  text-indent: -15px ;
+}
+
+.title {
+	font-size: 24px;
+}
+
+.fig > img {
+	padding-bottom: 10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container > div {
+	margin: 10px;
+	padding: 10px;
+	width: 25vw;
+}
+
+.container > div > img {
+	width: inherit;
+}

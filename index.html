@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title> Jeffrey Welch </title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<b class="title">
+		Improved Integration of In Situ Data with Remote Sensing Imagery For Snow Water Equivalent Estimation
+		</b>
+		<div class="container">
+			<p style="padding-top: 25px;">
+			Hello, my name is Jeffrey Welch, and I am currently in the Geography MSc. Program at the University of Waterloo. 
+			I did my undergrad in geomatics, also at UW. In my time at UW, I developed an interest in climate research and remote sensing. 
+			During my work terms, I gained experience in both of those fields through my time at Environment and Climate Change Canada (ECCC), 
+			in the Atmospheric Monitoring Directorate and the Earth Observation and Geomatics group, respectively. Ultimately, I would like to 
+			combine those two areas of study in my future research.
+			</p>
+			<div class="fig">
+				<img src="pictures/headshot.png" style="height: max(15rem, 10vw); width: max(15rem, 10vw); margin: 0px 100px 0px 100px;">
+			</div>
+		</div>
+		<p style="margin-bottom: 25px;">
+		For the duration of my master’s program, I will be working for Dr. Richard Kelly, as my supervisor, in the 
+		<a href="https://uwaterloo.ca/scholar/rejkelly"> Theoretical and Applied Earth Observation Science Lab (TAEOS) </a>. I initial chose to apply to the UW grad program because of the relationships I developed during 
+		my undergrad, specifically with the professors of my remote sensing courses. The focus of the TAEOS group intersects well with my own 
+		research interests and the connections I made at ECCC. I hope for my research to provide practical contributions to real-world issues, 
+		and I believe understanding and characterising climate change could not be any more relevant.
+		</p>
+		<p>
+		For my thesis, I will attempt to improve the integration of weather station data with remote sensing estimates of snow water equivalent 
+		(SWE). Passive microwave remote sensing is suitable for global, synoptic SWE estimation [1], but becomes less accurate with high SWE values 
+		and over complex land cover types [2,3]. To better constrain uncertainty in SWE estimates, passive microwave imagery can be combined with 
+		in situ observations [4]. The method I will be using is based on the European Space Agency’s <a href="https://www.globsnow.info/">GlobSnow project</a> [5]. By reducing the 
+		uncertainty in such a product, uncertainty in the climate data record could be reduced.
+		</p>
+		<div class="container">
+			<div class="fig">
+				<img src="pictures/AWS.png">
+				<span>ECCC AWS stations, to be used as input of in situ data.</span>
+			</div>
+			<div class="fig">
+				<img src="pictures/Ordinary.png">
+				<span>Interpolated snow depth, from AWS stations on March 1, 2019, with Ordinary Kriging.</span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="fig">
+				<img src="pictures/globsnow.png">
+				<span>GlobSnow logo</span>
+			</div>
+			<p>
+			My research will focus on the spatial interpolation of the in situ data aspect of the SWE estimation process. The GlobSnow method uses 
+			Ordinary Kriging to interpolate the discrete weather observations, which assumes a constant mean across the entire domain. As that domain 
+			covers entire continents, it is unlike that snowpack characteristics are constant across such a large area and Ordinary Kriging may not be 
+			the optimal approach. Therefore, I hope to identify a better approach to interpolate weather observations and reduce uncertainty in the 
+			final SWE estimates.
+			</p>	
+		</div>
+		<p style="margin-bottom: 50px;">
+		A reduced uncertainty in trends of snowpack characteristics aligns well with the <a href="https://sdgs.un.org/goals/goal13"> United Nation’s Sustainable Development Goal 13 - 
+		Take urgent action to combat climate change and its impacts </a>. In order to properly address climate change, it first must be properly 
+		understood and quantified. Snowpack characteristics are an important aspect of characterising climate change, namely SWE, and are used 
+		in climate, hydrology, and energy modelling.
+		</p>
+		<b>References</b>
+		<p class="hangingindent">
+			[1] Kelly, R., Li, Q., & Saberi, N. (2019). THE AMSR2 SATELLITE-BASED MICROWAVE SNOW ALGORITHM (SMSA): A NEW ALGORITHM FOR ESTIMATING GLOBAL SNOW ACCUMULATION. 2019 IEEE International Geoscience & Remote Sensing Symposium. <br>
+		</p>
+		<p class="hangingindent">
+			[2] Mortimer, C., Mudryk, L., Derksen, C., Luojus, K., Brown, R., Kelly, R., & Tedesco, M. (2020). Evaluation of long-term Northern Hemisphere snow water equivalent products. Cryosphere, 14(5), 1579–1594. https://doi.org/10.5194/tc-14-1579-2020 <br>
+		</p>
+		<p class="hangingindent">
+			[3] Saberi, N., Kelly, R., Flemming, M., & Li, Q. (2020). Review of snow water equivalent retrieval methods using spaceborne passive microwave radiometry. International Journal of Remote Sensing, 41(3), 996–1018. https://doi.org/10.1080/01431161.2019.1654144 <br>
+		</p>
+		<p class="hangingindent">
+			[4] Pulliainen, J. T., & Grandeil, J. (1999). HUT snow emission model and its applicability to snow water equivalent retrieval. IEEE Transactions on Geoscience and Remote Sensing, 37(3), 1378–1390. https://doi.org/10.1109/36.763302 <br>
+		</p>	
+		<p class="hangingindent">
+			[5] Takala, M., Luojus, K., Pulliainen, J., Derksen, C., Lemmetyinen, J., Kärnä, J. P., Koskinen, J., & Bojkov, B. (2011). Estimating northern hemisphere snow water equivalent for climate research through assimilation of space-borne radiometer data and ground-based measurements. Remote Sensing of Environment, 115(12), 3517–3529. https://doi.org/10.1016/j.rse.2011.08.014 <br>
+		</p>
+	</body>
+</html>
